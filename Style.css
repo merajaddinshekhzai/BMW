@@ -1,0 +1,92 @@
+.nav {
+  background-color: rgba(0, 0, 0, 0.489);
+  justify-content: end;
+}
+
+.nav li a {
+  color: aliceblue;
+}
+
+.hompage {
+  height: 900px;
+  min-height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+* {
+  color: rgb(19, 94, 97);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.homeimage .container {
+  position: relative;
+  z-index: 2;
+  color: rgb(28, 99, 97);
+}
+
+.homeimage h1 {
+  font-weight: 700;
+  color: white;
+}
+
+.homeimage p {
+  color: white;
+}
+
+.navbar-brand img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.navbar {
+  padding: 1rem 1rem;
+}
+.card-group .container {
+  display: flex;
+}
+.card {
+  padding: 10px;
+  margin: 20px;
+}
+
+.contact-container {
+  color: turquoise;
+}
+.contact-container {
+  padding: 50px;
+  
+}
+.contact-container button {
+  background-color: rgb(28, 99, 97);
+}
+.social-icons a {
+  margin: 0 15px;
+  font-size: 24px;
+  color: #30c5af; 
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  color: black;
+}
+.contact-form {
+  background-color: white; 
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.contact-header {
+  margin-bottom: 30px;
+  text-align: left;
+}
+label {
+  color: #fff; 
